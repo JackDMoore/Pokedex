@@ -4,10 +4,11 @@ function App() {
   return(
     <div>
       <div>Pokedex</div>
-
-      <PokeCard title="Alexa" handle="@alexa99" />
-      <PokeCard title="Cortana" handle="@Cortana32" />
-      <PokeCard title="Siri" handle="@siri01" />
+      <section>
+        <PokemonName inputText={inputText} />
+        <PokemonImage imageSource={imageSource} />
+        <PokemonType inputType={inputType} />
+      </section>
     </div>
   );
 }
