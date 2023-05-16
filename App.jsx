@@ -1,13 +1,13 @@
-import ProfileCard from './ProfileCard';
+import PokeCard from './PokeCard';
 
 function App() {
   return(
     <div>
-      <div>Personal Digital Assistants</div>
+      <div>Pokedex</div>
 
-      <ProfileCard title="Alexa" handle="@alexa99" />
-      <ProfileCard title="Cortana" handle="@Cortana32" />
-      <ProfileCard title="Siri" handle="@siri01" />
+      <PokeCard title="Alexa" handle="@alexa99" />
+      <PokeCard title="Cortana" handle="@Cortana32" />
+      <PokeCard title="Siri" handle="@siri01" />
     </div>
   );
 }
